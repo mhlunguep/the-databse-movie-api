@@ -1,0 +1,192 @@
+@import url(@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap'););    
+    
+*{
+box-sizing: border-box;
+}
+:root{
+--primary-color: #667;
+--secondary-color: #00b6df;
+}
+
+body{
+background-color: var(--primary-color);
+font-family: Lato, sans-serif;
+margin: 0;
+}
+header{
+background-color:var(--secondary-color);
+padding: 1em;
+color:#fff;
+display:flex;
+justify-content: flex-end;
+}
+#links{
+margin-right: 50px;
+font-size: 16px;
+
+}
+#links a{
+margin: 0 15px;
+text-decoration: none;
+color: #111;
+font-family: inherit;
+}
+#links a:hover{
+color:var(--primary-color);
+} 
+
+main{
+display:flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.movie {
+  width: 300px;
+  margin: 1rem;
+  border-radius: 3px;
+  box-shadow: 0.2px 4px 5px rgba(0,0,0,0.1);
+  position:relative;
+  overflow: hidden;
+  display:inline-block;
+}
+.movie-info{
+color:#eee;
+justify-content: space-between;
+padding: 0.5rem 1rem 1rem;
+letter-spacing: 0.5px;
+}
+
+.movie-img{
+  width:100%;
+}
+.btn-fav{
+border-radius: 10px;
+padding: 5px 12px;
+border: 1px;
+background-color:var(--secondary-color);
+}
+
+form .fa {
+margin-right:5px;
+}
+
+.form-wrapper {
+width:300px;
+height:370px;
+position: absolute;
+top: 50%;
+left: 48%;
+margin: -184px 0px 0px -155px;
+background: rgba(0,0,0,0.27);
+padding: 15px 25px;
+border-radius: 5px;
+box-shadow: 0px 1px 0px rgba(0,0,0,0.6),inset 0px 1px 0px rgba(255,255,255,0.04);
+}
+
+.form-item {
+width:100%;
+}
+
+h3{
+font-size: 18px;
+font-weight: 700;
+color: #e7e7e7;
+line-height:1.5;
+}
+p{
+  font-size:16px;
+  color:#111;
+}
+.form-item input{
+border:1.4px solid #cfecf0;
+background:transparent;
+color: #fff;
+margin-top:11px;
+font-family: 'Lato', sans-serif;
+font-size: 1.2em;
+height: 49px;
+padding: 0 16px;
+width: 100%;
+padding-left: 55px;
+
+}
+input[type='password'], input[type='emai'],input[type='text']{
+background: #fff;
+background-position: 10px 50%;
+}
+.form-item input:focus {
+outline: none;
+border:1.4px solid #fff;
+}
+
+.button-panel {
+margin-bottom: 20px;
+padding-top: 10px;
+width: 100%;
+}
+
+.button-panel .button {
+background: #00b6df;
+border: none;
+color: #fff;
+cursor: pointer;
+height: 50px;
+font-size: 1.2em;
+text-align: center;
+text-transform: uppercase;
+transition: background 0.6s linear;
+width: 100%;
+margin-top:10px;
+}
+
+.button:hover {
+background: #6eb7cb;
+}
+
+.form-item input, .button-panel .button {
+border-radius: 2px
+}
+
+.reminder {
+text-align: center;
+}
+
+.reminder a {
+color: #fff;
+text-decoration: none;
+transition: color 0.3s;
+}
+
+.reminder a:hover {
+color: #cab6bf;
+}
+.contact{
+min-height: 80vh;
+width: 60hv;
+background-color: #ddd;   
+padding: 50px 80px;
+display: block;
+margin: 50px auto;
+}
+.social-icons .fa{
+float:right;
+margin-right:5px;
+font-size:30px;
+}
+
+@media only screen and (max-width: 1200px){
+  
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    }
+
+}
